@@ -3,15 +3,15 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Martin
-middle_name: A.
-last_name: He
+first_name: IC
+middle_name: Hack
+last_name: Web-App
 email: mah121@ic.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   The personal schenanigans of Martin A. He, now in interweb format.
 footer_text: >
-  Lazily put together in <a href="https://jekyllrb.com/">Jekyll</a> using the <a href="https://github.com/alshedivat/al-folio">Al-Folio Theme</a> during a weekend.
-keywords: personal-website, academica, education, composition, sheet-music, blog, chinese, japanese  # add your own keywords or leave empty
+  Created in 24 hours for ICHack '23, in a sleep-deprived state.
+keywords: organisation, travel, parties, socialising  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -66,16 +66,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: martin-he543 # your GitHub user name
-twitter_username: martin_he543 # your Twitter handle
-instagram_username: martin.he543
-youtube_channel: martin.he543
-linkedin_username: martin-he543 # your LinkedIn user name
-strava_userid: 26800960
-soundcloud_id: martin-he543
-stackoverflow_id: 13410723 #your stackoverflow id
+# twitter_username: martin_he543 # your Twitter handle
+# instagram_username: martin.he543
+# youtube_channel: martin.he543
+# linkedin_username: martin-he543 # your LinkedIn user name
+# strava_userid: 26800960
+# soundcloud_id: martin-he543
+# stackoverflow_id: 13410723 #your stackoverflow id
 
 contact_note: >
-  Your best bet to reach me would be through e-mail, or WhatsApp...
+  You can contact our support team at physteem@outlook.com. Please find us there!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -91,9 +91,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: 95 fæces # blog_name will be displayed in your blog page
-blog_nav_title: 95 fæces # your blog must have a title for it to be displayed in the nav bar
-blog_description: An misspelling of "95 Theses", this glorified pit of narcassism is where I go to write stuff on occasion (for fun). Like the title suggests, most of it will probably be best described by a vulgar word beginning with 's'. Sorry, Martin Luther.
+blog_name: Release Notes # blog_name will be displayed in your blog page
+blog_nav_title: Release Notes # your blog must have a title for it to be displayed in the nav bar
+blog_description: Updates to our latest developments in these 24h.
 permalink: /blog/:year/:title/
 
 # Pagination
