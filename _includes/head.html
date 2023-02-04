@@ -1,0 +1,114 @@
+    <!-- Metadata, OpenGraph and Schema.org -->
+    {% include metadata.html %}
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@{{ site.bootstrap.version }}/dist/css/bootstrap.min.css" rel="stylesheet" integrity="{{ site.bootstrap.integrity.css }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css" integrity="{{ site.mdb.integrity.css }}" crossorigin="anonymous" />
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- Barba Page Transitions -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script>
+        barba.init({
+          // ...
+        })
+    </script>
+    
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{ site.fontawesome.version }}/css/all.min.css" integrity="{{ site.fontawesome.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@{{ site.academicons.version }}/css/academicons.min.css" integrity="{{ site.academicons.integrity }}" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="none" id="highlight_theme_light" />
+
+    <!-- Styles -->
+    {% if site.icon.size < 3 %}
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    {% elsif site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    
+    <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    {% endif %}
+
+    <!-- Google Analytics Verification-->
+    <meta name="google-site-verification" content="T7zs18Uoef9mGLTX-XBX_gc8wIXsgB85opbbBs8gjNs" />
+    <meta name="google-site-verification" content="-h8p64cY9jmLmu_skbtwHJGSd3UmHrbD4wz-RxRq6Ww" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <link rel="stylesheet" type="text/css" href="/assets/css/animate.css">
+      <script src="/assets/js/wow.js"></script>
+      <script>
+        wow = new WOW({
+        });
+        wow.init();
+      </script>
+      <script src="/assets/js/snowstorm.js"></script>
+
+      <script type="text/javascript">
+
+        function autoRun() {
+          // Select a random footer song.
+          var listquote = new Array('<a href="https://www.youtube.com/watch?v=ZtIW2r1EalM&ab_channel=RomanticandModernMusicChannel">Frédéric Chopin (Rubinstein), Nocturne op. 9 no. 1</a>','<a href="https://www.youtube.com/watch?v=tvm2ZsRv3C8">Frédéric Chopin (Yundi Li), Fantasie Impromptu</a>','<a href="https://www.youtube.com/watch?v=tvm2ZsRv3C8">Frédéric Chopin, Fantasie Impromptu</a>','<a href="https://www.youtube.com/watch?v=tjpgJjdk52c">Wet Leg, Wet Dream</a>','<a href="https://www.youtube.com/watch?v=rGeJ73yAAhQ">Harry Styles, Cherry</a>','<a href="https://www.youtube.com/watch?v=zQ3PeDGswz4">Harry Styles, She</a>','<a href="https://www.youtube.com/watch?v=YixAD9GIAuY">Taeko Ohnuki, 4:00AM</a>','<a href="https://www.youtube.com/watch?v=eI_qMyW31_Q">Haruomi Hosono, Hosono House</a>','<a href="https://www.youtube.com/watch?v=osdoLjUNFnA">Taylor Swift ft. Bon Iver, exile</a>','<a href="https://www.youtube.com/watch?v=-83qrKGZ3ps">Bon Iver, Skinny Love</a>','<a href="https://www.youtube.com/watch?v=4_xMl32mWds">The National, Oblivions</a>','<a href="https://www.youtube.com/watch?v=J0DjcsK_-HY">Lorde, Perfect Places</a>','<a href="https://www.youtube.com/watch?v=d6nYF3juDQY">Lorde, Hard Feelings</a>','<a href="https://www.youtube.com/watch?v=uPS1qFK6PAM">Lizzo, Juice</a>','<a href="https://www.youtube.com/watch?v=Ojp71GGm-LQ">Harry Styles, Fine Line</a>','<a href="https://www.youtube.com/watch?v=zQ3PeDGswz4">Harry Styles, She</a>','<a href="https://www.youtube.com/watch?v=HDAKS18Gv1U">Bon Iver, Hey Ma</a>','<a href="https://www.youtube.com/watch?v=TWcyIpul8OE">Bon Iver, Holocene</a>','<a href="https://www.youtube.com/watch?v=1ZxF_nA1SxQ">Harry Styles, From the Dining Table</a>','<a href="https://www.youtube.com/watch?v=ygTZZpVkmKg">The Weeknd, After Hours</a>','<a href="https://www.youtube.com/watch?v=xMDwqeFQuKg">Ólafur Arnalds ft. Bonobo, Loom</a>','<a href="https://www.youtube.com/watch?v=ScUP6MKmXpg">Nils Frahm, Re</a>','<a href="https://www.youtube.com/watch?v=23cMxMw9Pgs">Jean-Michel Blais, Nostos</a>','<a href="https://www.youtube.com/watch?v=-C1eQs2HJ6E">Jean-Michel Blais, Ad Claritatem Domine</a>','<a href="https://www.youtube.com/watch?v=Uf9MXeorVlk">Japanese Breakfast, Be Sweet (Korean Version)</a>','<a href="https://www.youtube.com/watch?v=VHJzRSICfj4">Joep Beving, Hanging D</a>','<a href="https://www.youtube.com/watch?v=Md2CtjOPrIU">Ólafur Arnalds, Island Songs</a>','<a href="https://www.youtube.com/watch?v=rHYxUW1mojo">Vance Joy, We All Die Trying to Get It Right</a>','<a href="https://www.youtube.com/watch?v=m-CHbKe88-8">Joe Hisaishi (Cateen), 海の見える街</a>','<a href="https://www.youtube.com/watch?v=z1-6uPSOEf4">Joe Hisaishi (Cateen), Merry Go Round of Life</a>','<a href="https://www.youtube.com/watch?v=HMGetv40FkI&ab">Joe Hisaishi, Merry Go Round of Life</a>','<a href="https://www.youtube.com/watch?v=GhDnyPsQsB0">Bon Iver, re: Stacks</a>','<a href="https://www.youtube.com/watch?v=htyVjHr2_m8">Bon Iver, iMi</a>','<a href="https://www.youtube.com/watch?v=-gznDYiDC94">Bon Iver, Beach Baby</a>','<a href="https://www.youtube.com/watch?v=iggmiF7DNoM">girl in red, we fell in love in october</a>','<a href="https://www.youtube.com/watch?v=CWqdowLFRKw">Conan Gray, Heather</a>','<a href="https://www.youtube.com/watch?v=PNKxAWiu4Fc">Conan Gray, Astronomy</a>','<a href="https://www.youtube.com/watch?v=NDpwh0pCXDw">Conan Gray, Overdrive</a>','<a href="https://www.youtube.com/watch?v=CMWzsk__jcw">Troye Sivan, Plum</a>','<a href="https://www.youtube.com/watch?v=pNNMr5glICM">Martin Garrix ft. Troye Sivan, There for You</a>','<a href="https://www.youtube.com/watch?v=m-M1AtrxztU">Clean Bandit, Rather Be</a>','<a href="https://www.youtube.com/watch?v=Km__cJEJ3JI">Ariana Grande, needy</a>','<a href="https://www.youtube.com/watch?v=geUYm3f6ZA4">Billie Eilish, Halley\'s Comet</a>','<a href="https://www.youtube.com/watch?v=WiinVuzh4DA">Billie Eilish, i love you</a>','<a href="https://www.youtube.com/watch?v=nLnDm8t9Mng">Sufjan Stevens, Fourth of July</a>','<a href="https://www.youtube.com/watch?v=adKEqin5SoI">Sufjan Stevens, the Only Thing</a>','<a href="https://www.youtube.com/watch?v=tTj2jBe4XfU">Sufjan Stevens, Carrie & Lowell</a>','<a href="https://www.youtube.com/watch?v=dsGODTySH0E">Sufjan Stevens, Death With Dignity</a>','<a href="https://www.youtube.com/watch?v=4WTt69YO2VI">Sufjan Stevens, Mystery of Love</a>','<a href="https://www.youtube.com/watch?v=UEBPTUbpLoY">Sufjan Stevens, Futile Devices (Doveman Remix)</a>','<a href="https://www.youtube.com/watch?v=IDgR3FNlsUM">Sufjan Stevens, Visions of Gideon</a>','<a href="https://www.youtube.com/watch?v=bTYUyDjVCRU">Maurice Ravel (Laplante), Miroirs III. Une Barque sur L\'Ocean</a>','<a href="https://www.youtube.com/watch?v=aAJNm0ApPjk">Two Door Cinema Club, Undercover Martyn</a>','<a href="https://www.youtube.com/watch?v=YXwYJyrKK5A">Two Door Cinema Club, What You Know</a>','<a href="https://www.youtube.com/watch?v=iArXv64tCJA">Peter Bjorn and John, Young Folks</a>','<a href="https://www.youtube.com/watch?v=pTOC_q0NLTk">The Lumineers, Ophelia</a>','<a href="https://www.youtube.com/watch?v=opeETnB8m8w">Cage the Elephant, Cigarette Daydreams</a>','<a href="https://www.youtube.com/watch?v=GCdwKhTtNNw">The Neighbourhood, Sweater Weather</a>','<a href="https://www.youtube.com/watch?v=lqSgsq4Bn2c">The Neighbourhood, Daddy Issues</a>','<a href="https://www.youtube.com/watch?v=1prhCWO_518">Foster the People, Call It What You Want</a>','<a href="https://www.youtube.com/watch?v=wAePsEqetQE">Toshifumi Hinata, Rhapsody in the Twilight</a>','<a href="https://www.youtube.com/watch?v=j-7AWoUPI0E">Toshifumi Hinata, Sarah\'s Crime</a>','<a href="https://www.youtube.com/watch?v=xLwJzlk8Mto">Toshifumi Hinata, Reality in Love</a>','<a href="https://www.youtube.com/watch?v=YmWH1hL5cd8">Akira Kosemura, Light Dance</a>','<a href="https://www.youtube.com/watch?v=s9hTUv6F3-M">Akira Kosemura, Hicari</a>','<a href="https://www.youtube.com/watch?v=kof6jh9zuTg">Akira Kosemura, Precious</a>','<a href="https://www.youtube.com/watch?v=SWYs6mP19bQ">Akira Kosemura, DNA</a>','<a href="https://www.youtube.com/watch?v=JGVFSdao4uw">Jean-Michel Blais, Roses</a>','<a href="https://www.youtube.com/watch?v=-OUhWWHRLQA&list=PL32BDCB3E145324CD&ab_channel=MagnusMaynard">Keith Kenniff, Branches</a>','<a href="https://www.youtube.com/watch?v=QOUS6Qa-a58">M83 ft. Mai Lan, Atlantique Sud</a>','<a href="https://www.youtube.com/watch?v=uE8EhJ9gS28">M83, My Tears are Becoming a Sea</a>','<a href="https://www.youtube.com/watch?v=-sN21hNaeEA">Gillian Hills, Tut Tut Tut Tut</a>','<a href="https://www.youtube.com/watch?v=RDHjeiys3a0">Plastic Bertrand, Ça Plane Pour Moi</a>','<a href="https://www.youtube.com/watch?v=kijpcUv-b8M">Queen, Somebody to Love</a>');
+          var randomChooser = Math.floor(Math.random() * listquote.length)
+          $("#pickaquote").html("🎵 Random Song: " +(listquote[randomChooser]));
+          $("#pickaquote a").attr("target","_blank");
+
+          // Select a random snow mode name.
+          var listSnow = new Array("Festive","哈尔滨","Snow","Winter","Россия","Влади́мир Влади́мирович Пу́тин","Nuclear Fallout","北海道","雪花飘飘");
+          var randomSnowChooser = Math.floor(Math.random() * listSnow.length)
+          $("#snowToggle").attr("value","Toggle " +(listSnow[randomSnowChooser])+" Mode");
+
+          // Select a random snow mode song.
+          var listAudio = new Array("chaise_longue.m4a","buble_christmas.opus","ussr_anthem.m4a","xhpp.opus","i_love_you.opus");
+          var randomAudio = Math.floor(Math.random() * listAudio.length)
+          $("#myAudio").attr("src","/assets/music/" + (listAudio[randomAudio]));
+          var myAudio = document.getElementById("myAudio");
+          
+          // Change logo based on theme.
+          var currentTheme = localStorage.getItem("theme");
+          if (currentTheme == "light") {
+            $("#site-logo-clickable").attr("src","/assets/img/site_logo.png");
+          } else {
+            $("#site-logo-clickable").attr("src","/assets/img/site_logo_darkmode.png");
+          }
+        }
+        window.onload = autoRun;
+        // Dark Mode Action
+        let darkTheme = (theme) => {
+          if (theme == "light") {
+            setTheme("dark");
+          } else {
+            setTheme("light");
+          }
+        }
+        // Change Dark Mode Logo
+        let darkThemeLogo = (theme) => {
+          if (theme == "light") {
+            $("#site-logo-clickable").attr("src","/assets/img/site_logo.png");
+          } else {
+            $("#site-logo-clickable").attr("src","/assets/img/site_logo_darkmode.png");
+          }
+        }    
+        // Toggle Play and Pause on Snow Mode
+        function togglePlay() {
+          darkTheme(localStorage.getItem("theme"));
+          return myAudio.paused ? myAudio.play() : myAudio.pause();
+        }
+
+      </script>

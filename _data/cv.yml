@@ -1,0 +1,159 @@
+- title: Summary
+  type: map
+  contents:
+    - name: Full Name
+      value: Martin A. He
+    - name: Age
+      value: 19
+    - name: Location
+      value: Surbiton, Greater London
+    - name: Institution
+      value: Imperial College London, the Blackett Laboratory
+    - name: Course
+      value: BSc (3 Year Course) Physics (F300), with French & Japanese
+    - name: Languages
+      value: English (most proficient), Chinese, French, Japanese, Latin, Ancient Greek, Spanish (elementary)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor's Degree
+      institution: Imperial College, London, United Kingdom
+      year: 2021-24
+      description:
+        - Currently in <b>Second Year.</b>
+        - title: <b>First Year</b> - 1:1.
+          contents:
+            - Including > 70% (1:1) grades in Mathematical Analysis, Vector Fields & Electromagnetism, Practical Physics (inc. Laboratory, Computing), Oscillations & Waves, Statistics of Measurement.  
+    - title: A Levels, AS Levels
+      institution: Hampton Court House, East Molesey, United Kingdom
+      year: 2020-21
+      description:
+        - Clean Sweep at A and AS Levels.
+        - <b>A Levels - </b> 4 A*s awarded in Maths, Further Maths, Chemistry, and Physics. 
+        - <b>AS Levels - </b> 3 A Grades (highest commendation) awarded in Maths, Chemistry and Physics. A Grade also awarded in Chinese <i>(taken aged 13)</i>.
+    - title: GCSEs
+      institution: Tiffin School, Kingston-upon-Thames, United Kingdom
+      year: 2019
+      description:
+        - Clean Sweep at GCSEs.
+        - 13 Grade 9s, including those awarded in English (Language and Literature), including a Distinction in Spoken Communication, Mathematics, Chemistry, Biology, Physics, Religious Studies, History, Music, French, Latin, and Ancient Greek. A* with distinction awarded in Further Mathematics. A* (pre-2016) awarded in Mandarin Chinese.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Private Tutor
+      institution: Freelance
+      year: Oct 2019 - Jun 2022
+      description:
+        - Provided tutoring services in a wide range of disciplines and ability levels, including but not limited to <b>Mathematics</b> (up to pre-University); <b>Physics</b> (up to pre-University); <b>Mandarin Chinese</b> (up to GCSE); <b>Piano</b> (up to Grade 8); <b>Music Composition</b>; <b>UCAS Advice</b>; <b>Oxbridge Interview Preparation</b>; <b>Chemistry</b> (up to A-level); <b>Latin and Ancient Greek</b> (up to GCSE).
+        - Recent successes include an A-level student who went up to grades A*-A-A in Biology, Physics, Maths from predicted B-C-C in Year 12 Finals.
+        - Employed a unique teaching methodology, free from the mundanity of an textbook, or series of repetitive exercises. The wholesale elimination of pernicious perfectionism was abandoned in favour of embracing mistake-making, as well as ignoring set curricula imposed by the government in favour of more logical understanding-based approaches.
+    - title: Sales Associate
+      institution: Clarks' Shoes, Kingston-upon-Thames, United Kingdom
+      year: Oct 2019 - Aug 2021
+      description:
+        - Though originally applying for a warehouse role, I was moved to customer-facing positions throughout the duration of my employment. Processed customer-related transactions including payments, refunds, discounts, and exchanges. Worked in the Adults' shoes department.
+        - Experience working in fast-paced sales environment. Communicated with customers in English, French and Mandarin Chinese. Awarded Employee of the Month, through positive customer feedback.
+    - title: Unpaid Teaching Assistant
+      institution: Classics Dept., Tiffin School, London, United Kingdom
+      year: Oct 2016 - Mar 2019
+      description:
+        - Aided with the teaching of classics on a weekly basis.
+        - Languages involved included Latin and Ancient Greek. Led the production of widely-adopted <i>Classics Cheat Sheets</i> covering GCSE-level grammar, vocabulary and literature analysis.
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: PhysicsHub
+      year: 2022
+      description: Departmental-wide resource hub for Physics, for Imperial Students.
+    - title: Construction of Rudimentary Confocal Laser Scanning Microscope
+      year: 2022
+      description: Performed the construction of a rudimentary confocal laser scanning microscope, on a budget of £200, utilising the open-source microscopy project provided by <a href="https://openflexure.org/">OpenFlexure</a> to create a 3D-printed automated flexure-mechanism stage. Attained micrometer-level precision of 3D height maps, and compared with micrometer gauges to measure the thicknesses of various objects. Operated as a Michelson interferometry set-up.
+    - title: Statistical Analysis of LHC Data
+      year: 2022
+      description: Performed the statistical analysis of LHC data by detecting excess back-to-back scattering of photon pairs in the 125GeV region in order to conclude the existence of the Higgs' boson. Various hypotheses were tested, and χ² values were considered.
+    - title: Determination of the Hubble Constant
+      year: 2021
+      description: A value of 65km/s/Mpc was obtained through the statistical analysis of a data-set of over 1,000,000 values to consider Doppler shift data modelled as a Gaussian fitted on top of a line of best fit.
+    - title: Japanese for Degenerates
+      year: 2021-Present
+      description: Ongoing Japanese linguistic project to <i>"spice"</i> up the learning experience, with humourous texts, stories, and exercises.
+    - title: Marathon Training
+      year: 2019-Present
+      description: <a href="https://www.strava.com/athletes/26800960">Training for marathons.</a> Completed 1× Marathon (through Bushy and Richmond Park), and preparing to run the Boston, Copenhagen and London Marathons once my podatrist allows me to pick up training once again.
+    - title: A Superior GCSE Revision Guide
+      year: 2017-19
+      description: Self-published a revision guide for the 9-1 GCSE courses, and negotiated with my school, as well as distributed revision notes for sale. The notes are now <a href="/projects/notes/gcses/">freely available online, open-source,</a> to aid with social mobility.
+    - title: Typographic Design Commissions
+      year: 2016-19
+      description: Creation of <a href="https://www.dafont.com/royana.font">various handwriting-based fonts</a> for increased legibility, with uses including in packaging for the company, <a href="https://www.naturallife.com/">Nature Life;</a> a Russian children's book company; an online <a href="https://beebeebo.com/">Greek store;</a> and a French Guianan book about local wildlife and horticulture.
+    - title: 95 Fæces
+      year: 2014-Present
+      description: A collection of essays, written in my free time, on various subjects ranging from Metaphysics to U.S. Foreign Policy.
+    - title: Opus 1, Opus 2
+      year: 2014-Present
+      description: Transcribing voice memos of <a href="/music/">various original piano improvisations and compositions.</a> Commenced Phase 2 - transcribing the second half (and finishing) the Themen und Variationem.
+
+- title: Honours and Awards
+  type: time_table
+  contents:
+    - year: 2020-21
+      items:
+        - Ranked First in Cohort (2020, 2021)
+        - Physics Award (2021)
+        - Mathematics Award (2021)
+    - year: 2014-2019
+      items: 
+        - Ranked First in Cohort (2015, 2017, 2018, 2019)
+        - Elected Form Captain (2014, 2015)
+        - Form Award (2015, 2018)
+        - Classics Award (2017, 2018)
+        - Science Award (2015)
+        - House Award (2017)
+        - Philosophy Award (2018)
+        - Mathematics Award (2015)
+        - Headmistress' Award (2015)
+        - Battle of the Bands (2017)
+
+- title: Skills
+  type: list
+  contents:
+    - <b>Web Design</b> - HTML, CSS, JS, JSON, Bootstrap, Material Design, Animate.css, Ruby on Rails
+    - <b>Programming</b> - Python, Numpy, Matplotlib, Scipy, C, Visual Basic, Ruby, Shell
+    - <b>Technologies</b> - GitHub, VSCode, PyCharm, Adobe Premiere Pro, Adobe Photoshop, Ableton, Jekyll
+    - <b>IT Skills</b> - Microsoft Word, Excel, PowerPoint, Publisher, Access, Windows, macOS, Linux, Ubuntu
+    - <b>Languages</b> - English (native), Chinese (near-native), French (B2), Japanese, Latin (GCSE-level), Classical Greek (GCSE-level), Spanish (elementary)
+    - <b>Traits</b> - Communication Skills, Team-working, Problem Solving, Time-efficient
+
+- title: Interests
+  type: nested_list
+  contents:
+    - title: STEM Subjects
+      items: 
+        - Quantum Physics
+        - Group Theory
+        - Astrophysics, Cosmology
+        - The Immune System, CRISPR technologies
+        - Alternative Display Technologies (e.g. e-Ink)
+        - Pedagogy, Spaced Repetition Systems
+
+    - title: Humanities
+      items:
+        - Linguistics, Universal Axioms of Language
+        - Logographic Languages - Chinese, Japanese
+        - Classical Civilisation, Mythology, History
+        - Classical Literature (e.g. the Iliad, the Odyssey)
+        - Bronze Age Collapse, Civilisation Collapse
+        - Typography, Graphic Design, UX Design
+        - Epistemology, Ethics, Kierkegaard
+
+
+- title: Miscellaneous Interests
+  type: list
+  contents:
+    - <b>Piano</b> - Grade 8 Distinction, Grade 5 Music Theory. I am currently learning Chopin's Heroïque, and an arrangement of Unravel, Tokyo Ghoul by Animenz, with drums played by my friend, Harry.
+    - <b>Cycling</b> - I often can be found in the Surrey Hills, mostly exploring different routes through various forested tracks, or quiet single-track roads, such as the ones around Westhumble or <a href="https://www.strava.com/segments/628859?hl=en-GB">Shere</a>. A long-time ambition of mine has been to cycle from London to Paris (via. <a href="https://london2paris.co.uk/routes/3-day-cycle-routes/">Newhaven</a>).
+    - <b>Table Tennis</b> - I am pretty mediocre at playing the sport, however, I am left-handed and pen-hold which throws some people off. I can be found playing weekly at my local congregation.
+    - <b>Japanese</b> - I am currently self-learning Japanese. My current ability is sufficient to just about read most of a newspaper, however, I endeavour to take the JLPT N4 and N3 in the near-future.
