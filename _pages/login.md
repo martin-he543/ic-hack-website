@@ -52,16 +52,8 @@ nav_order: 3
     <input type="text" class="search-box" name="query" placeholder="📮 Postcode" target="">
     <br /><br /><br />
     <h6><b style="font-weight:400;"><i class="fas fa-phone"></i> DIETARY REQUIREMENTS / 電話番号</b></h6>
-    <select name="dietary" id="dietary" class="search-box" target="">
-      <option value="none">🍲 No Dietary Requirements</option>
-      <option value="vegetarian">🍆 Vegetarian</option>
-      <option value="vegan">🍆 Vegan</option>
-      <option value="halal">☪ Halal</option>
-      <option value="kosher">✡ Kosher</option>
-      <option value="other">Other</option>
-    </select>
     <select name="allergies" id="allergies" class="search-box" target="">
-      <option value="none">🍲 No Allergies</option>
+      <option value="none">🍲 No Allergy Requirements</option>
       <option value="nuts">Nuts</option>
       <option value="crustacean">Crustacean</option>
       <option value="lactose">Lactose</option>
@@ -72,6 +64,16 @@ nav_order: 3
       <option value="fish">Fish</option>
       <option value="other">Other</option>
     </select>
+    <br />
+    <select name="dietary" id="dietary" class="search-box" target="">
+      <option value="none">🍲 No Dietary Requirements</option>
+      <option value="vegetarian">🍆 Vegetarian</option>
+      <option value="vegan">🍆 Vegan</option>
+      <option value="halal">☪ Halal</option>
+      <option value="kosher">✡ Kosher</option>
+      <option value="other">Other</option>
+    </select>
+    <br />
     <input type="text" class="search-box" name="query" placeholder="🍲 Other" target="">
   
   <button type="submit"><i class="fas fa-arrow-right"></i></button>
