@@ -38,7 +38,7 @@ nav_order: 3
   </form>
   <br /><br /><br />
   <h6><b style="font-weight:400;"><i class="fas fa-phone"></i> PHONE NUMBER / 電話番号</b></h6>
-  This is used for two-step verification, and alerts. Your phone number will not be stored, or sold to third parties (as far as you are concerned), in accordance with the tyranny of Brussels.<br /><br />
+  This is used for two-step verification, and alerts. Your phone number will not be stored, or sold to third parties.<br /><br />
 
   <form action="{{ site.baseurl }}/search.html" method="get" id="search-ui">
     <!-- <label for="search-box">Search: </label> -->
@@ -94,8 +94,8 @@ nav_order: 3
 
 
   <br /><br /><br />
-  <h6><b style="font-weight:400;"><i class="fab fa-spotify"></i> SPOTIFY INTEGRATION / スポティファイ・インテグレーション</b></h6>
-  Integrate your Spotify account like the fucking libtards want to integrate society.<br /><br />
+  <h6><b style="font-weight:400;"><i class="fab fa-spotify"></i> SPOTIFY INTEGRATION・</b></h6>
+  Integrate your Spotify account.<br /><br />
   <form action="{{ site.baseurl }}/spotify_search.html" method="get" id="search-ui">
     <!-- <label for="search-box">Search: </label> -->
     <h5><i class="fab fa-spotify"></i><b> Log In with Spotify</b></h5>

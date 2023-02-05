@@ -33,7 +33,7 @@ social: true  # includes social icons at the bottom of the page
   <div class="wow fadeIn" data-wow-delay="1.1s"><b style="font-weight:600!important;">🍪 COOKIE NOTICE 🍪</b></div>
   <div class="wow fadeIn" data-wow-delay="1.2s"><b style="font-weight:600!important;">This website uses cookies...</b> 
   <br />
-  We like to sell your data to Russian oligarchs.
+  We follow GDPR guidelines.
 </div>
 </div>
 
