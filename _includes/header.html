@@ -4,7 +4,8 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           <!-- <span class="font-weight-light">Martin A. He&nbsp;</span> -->
-          <a href="/"><img src="assets/img/site_logo.png" id="site-logo-clickable" class="img-fluid rounded animated flip"></a>
+          <a href="/"><img src="assets/img/site_logo.png" id="site-logo-clickable" class="img-fluid rounded notransition"></a> 
+          <!-- animated flip -->
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             <!-- {%- if site.title == "blank" -%}
