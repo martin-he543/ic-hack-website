@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: extras
 nav: true
@@ -20,4 +20,4 @@ children:
     #   permalink: /physicshub/
     - title: catan
       permalink: /catan/
----
+--- -->

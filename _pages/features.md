@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /portfolio/
-title: portfolio
-description: The following is a showcase of various things I have composed and arranged over the years, to varying degrees of quality.
-years: [2022, 2020, 2019, 2018, 2017, 2016, 2015, 2014]
+permalink: /features/
+title: Features
+description: The following is a showcase of the features of the web-app.
+years: [2023, 2022]
 nav: true
 nav_order: 1
 ---

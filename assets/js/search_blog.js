@@ -16,7 +16,7 @@
   
         searchResults.innerHTML = appendString;
       } else {
-        searchResults.innerHTML = '<br /><h2 style="font-weight:600;">No results found. Please try again.</h2><div class="row"> <div class="col-sm mt-3 mt-md-0"><a href="https://www.youtube.com/watch?v=OCFmQd15SRo"><img src="/assets/img/styropyro.gif"></img></a></div></div>';
+        searchResults.innerHTML = '<br /><h2 style="font-weight:600;">No results found. Please try again.</h2><div class="row"> <div class="col-sm mt-3 mt-md-0"><a href="https://www.youtube.com/watch?v=OCFmQd15SRo"><img src="assets/img/styropyro.gif"></img></a></div></div>';
       }
     }
   

@@ -4,7 +4,7 @@
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
           <!-- <span class="font-weight-light">Martin A. He&nbsp;</span> -->
-          <a href="/"><img src="/assets/img/site_logo.png" id="site-logo-clickable" class="img-fluid rounded animated flip"></a>
+          <a href="/"><img src="assets/img/site_logo.png" id="site-logo-clickable" class="img-fluid rounded animated flip"></a>
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             <!-- {%- if site.title == "blank" -%}
@@ -111,3 +111,18 @@
         </div>
       </nav>
     </header>
+
+    {%- if page.title == about_title %}
+      <header class="post-header">
+        <div class="hero-image">
+          <br /><br /><br /><br /><br /><br />
+          <div class="hero-text">
+            <br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br />
+            <h1 style="font-size:3rem;">Welcome to the Future of Party Planning.</h1>
+            <p>The latest, revolutionary, all-in-one app.</p>
+            <a class="abstract btn btn-sm z-depth-0" role="button">Join the Future</a>
+          </div>
+        </div>
+      </header>
+      {%- endif %}

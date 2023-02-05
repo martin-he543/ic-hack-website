@@ -1,15 +1,15 @@
 ---
 layout: page
-title: notes
-permalink: /notes/
-description: A collection of notes that I have made over the years. 
+title: Testimonials
+permalink: /testimonials/
+description: Some testimonials from some satisfied customers.
 nav: true
 nav_order: 2
-display_categories: [high school, year 1, year 2]
+display_categories: [Party Planning, Birthday Parties, Afternoon Tea, PTA Meeting, Lunch Meeting, Teenage Raucous Houseparty, Game Night, Rager Binge]
 horizontal: false
 ---
 <b>
-  <a href="#high school">high school</a>&nbsp; &middot; &nbsp;<a href="#year 1">year 1</a>&nbsp; &middot; &nbsp;<a href="#year 2">year 2</a>
+  <a href="#Party Planning">Party Planning</a>&nbsp; &middot; &nbsp;<a href="#Birthday Parties">Birthday Parties</a>&nbsp; &middot; &nbsp;<a href="#Gatherings">Gatherings</a>&nbsp; &middot; &nbsp;<a href="#Afternoon Tea">Afternoon Tea</a>&nbsp; &middot; &nbsp;<a href="#Lunch Meeting">Lunch Meeting</a>&nbsp; &middot; &nbsp;<a href="#Teenage Raucous Houseparty">Teenage Raucous Houseparty</a>&nbsp; &middot; &nbsp;<a href="#Game Night">Game Night</a>&nbsp; &middot; &nbsp;<a href="#Rager Binge">Rager Binge</a>
 </b>
 <!-- pages/projects.md -->
 <div class="projects">
