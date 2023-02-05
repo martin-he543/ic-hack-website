@@ -7,8 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-
-
 <div class="card mt-3 wow fadeIn" data-wow-delay="1s" style="padding: 3rem;">
   <h2><b style="font-weight:800;">Log In</b></h2>
   <h6>Don't have an account yet? <a href="#Sign Up">Sign Up.</a></h6>
@@ -52,7 +50,7 @@ nav_order: 3
     <input type="text" class="search-box" name="query" placeholder="📮 Postcode" target="">
     <br /><br /><br />
     <h6><b style="font-weight:400;"><i class="fas fa-phone"></i> DIETARY REQUIREMENTS / 電話番号</b></h6>
-    <select name="allergies" id="allergies" class="search-box" target="">
+    <select name="allergies" id="allergies" class="search-box" target="" onchange="dropdownChange();">
       <option value="none">🍲 No Allergy Requirements</option>
       <option value="nuts">Nuts</option>
       <option value="crustacean">Crustacean</option>
@@ -65,7 +63,7 @@ nav_order: 3
       <option value="other">Other</option>
     </select>
     <br />
-    <select name="dietary" id="dietary" class="search-box" target="">
+    <select name="dietary" id="dietary" class="search-box" target="" onchange="dropdownChange();">
       <option value="none">🍲 No Dietary Requirements</option>
       <option value="vegetarian">🍆 Vegetarian</option>
       <option value="vegan">🍆 Vegan</option>
@@ -73,12 +71,27 @@ nav_order: 3
       <option value="kosher">✡ Kosher</option>
       <option value="other">Other</option>
     </select>
-    <br />
-    <input type="text" class="search-box" name="query" placeholder="🍲 Other" target="">
-  
-  <button type="submit"><i class="fas fa-arrow-right"></i></button>
-    <!-- <input type="submit" value="🔍" id="search-button"> -->
-  </form>
+    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+      <!-- <input type="submit" value="🔍" id="search-button"> -->
+    </form>
+    <br /><br />
+
+  <p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Click if "Other"</a>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          <h4>Click the submit button above, if "Other" has been chosen.</h4>
+          <input type="text" class="search-box" id="other-allergies" name="query" placeholder="🍲 Other Allergies" target="">
+          <br />
+          <input type="text" class="search-box" id="other-dietary" name="query" placeholder="🍲 Other Dietary Requirements" target="">
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <br /><br /><br />
   <h6><b style="font-weight:400;"><i class="fab fa-spotify"></i> SPOTIFY INTEGRATION / スポティファイ・インテグレーション</b></h6>
