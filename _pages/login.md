@@ -44,10 +44,37 @@ nav_order: 3
 
   <form action="{{ site.baseurl }}/search.html" method="get" id="search-ui">
     <!-- <label for="search-box">Search: </label> -->
-    <i class="fas fa-mobile"></i> <input type="number" class="search-box" name="query" placeholder="📞 Phone Number" target="">
-    <button type="submit">
-      <i class="fas fa-arrow-right"></i>
-    </button>
+    <i class="fas fa-mobile"></i> <input type="text" class="search-box" name="query" placeholder="📞 Phone Number" target=""><br /><br /><br />
+    <h6><b style="font-weight:400;"><i class="fas fa-phone"></i> ADDRESS / 電話番号</b></h6>
+    <input type="text" class="search-box" name="query" placeholder="🏠 House Number" target=""><br />
+    <input type="text" class="search-box" name="query" placeholder="🏘 Address 1" target=""><br />
+    <input type="text" class="search-box" name="query" placeholder="🏘 Address 2" target=""><br />
+    <input type="text" class="search-box" name="query" placeholder="📮 Postcode" target="">
+    <br /><br /><br />
+    <h6><b style="font-weight:400;"><i class="fas fa-phone"></i> DIETARY REQUIREMENTS / 電話番号</b></h6>
+    <select name="dietary" id="dietary" class="search-box" target="">
+      <option value="none">🍲 No Dietary Requirements</option>
+      <option value="vegetarian">🍆 Vegetarian</option>
+      <option value="vegan">🍆 Vegan</option>
+      <option value="halal">☪ Halal</option>
+      <option value="kosher">✡ Kosher</option>
+      <option value="other">Other</option>
+    </select>
+    <select name="allergies" id="allergies" class="search-box" target="">
+      <option value="none">🍲 No Allergies</option>
+      <option value="nuts">Nuts</option>
+      <option value="crustacean">Crustacean</option>
+      <option value="lactose">Lactose</option>
+      <option value="eggs">Eggs</option>
+      <option value="wheat">Wheat</option>
+      <option value="gluten">Gluten</option>
+      <option value="soy">Soy</option>
+      <option value="fish">Fish</option>
+      <option value="other">Other</option>
+    </select>
+    <input type="text" class="search-box" name="query" placeholder="🍲 Other" target="">
+  
+  <button type="submit"><i class="fas fa-arrow-right"></i></button>
     <!-- <input type="submit" value="🔍" id="search-button"> -->
   </form>
 
