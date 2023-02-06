@@ -1,0 +1,10 @@
+{
+    "account": "id",
+    "username": "username",
+    "password": "password",
+    "home": {
+        "postcode": "postcode",
+        "house_number": "number",
+        "street": "street"
+    }
+}
